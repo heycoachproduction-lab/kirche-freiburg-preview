@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//parish-freiburg//rozklad//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gottesdienste · Ukrainisch-orthodoxe Kirchengemeinde Mariä S
+ chutz und Fürbitte
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-CALDESC:Gottesdienstplan der Gemeinde
+BEGIN:VEVENT
+UID:2026-06-28-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260628T073000Z
+DTEND:20260628T093000Z
+SUMMARY:4. Sonntag nach Pfingsten
+DESCRIPTION:Göttliche Liturgie. Prophet Amos · Hl. Michael\, erster Metro
+ polit von Kiew
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-04-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260704T073000Z
+DTEND:20260704T093000Z
+SUMMARY:5. Woche nach Pfingsten
+DESCRIPTION:Göttliche Liturgie. Hl. Märtyrer Julian von Tarsus · Auffind
+ ung der Reliquien des hl. Maximos des Griechen
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-05-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260705T073000Z
+DTEND:20260705T093000Z
+SUMMARY:5. Sonntag nach Pfingsten
+DESCRIPTION:Göttliche Liturgie. Hl. Priestermärtyrer Eusebios von Samosat
+ a · Hl. Märtyrer Alban von Britannien
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-11-vespers@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260711T150000Z
+DTEND:20260711T170000Z
+SUMMARY:Vesper am Vorabend des Festes der Apostel Petrus und Paulus
+DESCRIPTION:Vesper. Übertragung der Reliquien der hll. Anargyroi Kyros und
+  Johannes · Gottesmutterikone der Dreihändigen
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-12-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260712T073000Z
+DTEND:20260712T093000Z
+SUMMARY:Fest der heiligen Apostelfürsten Petrus und Paulus
+DESCRIPTION:Göttliche Liturgie. 6. Sonntag nach Pfingsten
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-19-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260719T073000Z
+DTEND:20260719T093000Z
+SUMMARY:7. Sonntag nach Pfingsten
+DESCRIPTION:Göttliche Liturgie. Hl. Sisoes der Große · Synaxis der Heili
+ gen von Radonesch
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-02-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260802T073000Z
+DTEND:20260802T093000Z
+SUMMARY:Fest des heiligen Propheten Elias
+DESCRIPTION:Göttliche Liturgie. 9. Sonntag nach Pfingsten · Hl. Märtyrer
+  Athanasius von Brest
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-09-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260809T073000Z
+DTEND:20260809T093000Z
+SUMMARY:Fest des heiligen Großmärtyrers und Heilers Panteleimon
+DESCRIPTION:Göttliche Liturgie. 10. Sonntag nach Pfingsten
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-16-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260816T073000Z
+DTEND:20260816T093000Z
+SUMMARY:11. Sonntag nach Pfingsten
+DESCRIPTION:Göttliche Liturgie. Hll. Isaakios\, Dalmatos und Faustos · Hl
+ . Märtyrer Razhden der Perser
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-18-vespers@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260818T150000Z
+DTEND:20260818T170000Z
+SUMMARY:Vorfest der Verklärung des Herrn. Vesper
+DESCRIPTION:Vesper. Hl. Märtyrer Eusignios von Antiochien
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-19-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260819T073000Z
+DTEND:20260819T093000Z
+SUMMARY:Verklärung unseres Herrn und Gottes und Erlösers Jesus Christus
+DESCRIPTION:Göttliche Liturgie. Eines der zwölf großen Feste · Segnung 
+ der Früchte
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-28-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260828T073000Z
+DTEND:20260828T093000Z
+SUMMARY:Entschlafung unserer allheiligen Herrin\, der Gottesgebärerin und 
+ immerwährenden Jungfrau Maria
+DESCRIPTION:Göttliche Liturgie. Eines der zwölf großen Feste · Ende der
+  Mariä-Entschlafungs-Fastenzeit
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-05-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260905T073000Z
+DTEND:20260905T093000Z
+SUMMARY:Abschluss des Festes der Entschlafung der Gottesmutter
+DESCRIPTION:Göttliche Liturgie. Hl. Märtyrer Lupus von Thessaloniki · Hl
+ . Priestermärtyrer Irenäus von Lyon
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-13-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260913T073000Z
+DTEND:20260913T093000Z
+SUMMARY:15. Sonntag nach Pfingsten
+DESCRIPTION:Göttliche Liturgie. Niederlegung des Gürtels der Gottesmutter
+  · Hl. Priestermärtyrer Cyprian von Karthago
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-20-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260920T073000Z
+DTEND:20260920T093000Z
+SUMMARY:16. Sonntag nach Pfingsten
+DESCRIPTION:Göttliche Liturgie. Vorfest der Geburt der Gottesmutter · Hl.
+  Märtyrer Sozon
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-26-vespers@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260926T150000Z
+DTEND:20260926T170000Z
+SUMMARY:Vesper am Vorabend der Kreuzerhöhung
+DESCRIPTION:Vesper. Gedenken der Weihe der Auferstehungskirche in Jerusalem
+  · Vorfest der Kreuzerhöhung
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-27-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260927T073000Z
+DTEND:20260927T093000Z
+SUMMARY:Erhöhung des kostbaren und lebenspendenden Kreuzes
+DESCRIPTION:Göttliche Liturgie. 17. Sonntag nach Pfingsten · Eines der zw
+ ölf großen Feste · Strenger Fasttag
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260930T073000Z
+DTEND:20260930T093000Z
+SUMMARY:Fest der heiligen Märtyrerinnen Glaube\, Hoffnung\, Liebe und ihre
+ r Mutter Sophia
+DESCRIPTION:Göttliche Liturgie. Nachfeier der Kreuzerhöhung
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

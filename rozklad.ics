@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//parish-freiburg//rozklad//UK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Богослужіння · Українська правос
+ лавна громада Покрови Пресвятої Богород
+ иці
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-CALDESC:Розклад богослужінь громади
+BEGIN:VEVENT
+UID:2026-06-28-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260628T073000Z
+DTEND:20260628T093000Z
+SUMMARY:4-та Неділя по П'ятидесятниці
+DESCRIPTION:Божественна Літургія. Прор. Амоса 
+ · Свт. Михаїла\, першого митрополита Київ
+ ського · Собор преподобних отців Псково-
+ Печерських
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-04-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260704T073000Z
+DTEND:20260704T093000Z
+SUMMARY:Седмиця 5-та по П'ятидесятниці
+DESCRIPTION:Божественна Літургія. Мч. Іуліана 
+ Тарсійського · Обретіння мощей прп. Макс
+ има Грека
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-05-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260705T073000Z
+DTEND:20260705T093000Z
+SUMMARY:5-та Неділя по П'ятидесятниці
+DESCRIPTION:Божественна Літургія. Сщмч. Євсеві
+ я\, єпископа Самосатського · Мч. Албана Б
+ ританського
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-11-vespers@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260711T150000Z
+DTEND:20260711T170000Z
+SUMMARY:Вечірня напередодні свята апостолів
+  Петра і Павла
+DESCRIPTION:Вечірня. Перенесення мощей мчч. бе
+ зсрібників Кира та Іоана · Ікона Божої М
+ атері «Троєручиця»
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-12-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260712T073000Z
+DTEND:20260712T093000Z
+SUMMARY:Святих славних і всехвальних первов
+ ерховних апостолів Петра і Павла
+DESCRIPTION:Божественна Літургія. 6-та Неділя п
+ о П'ятидесятниці · Свт. Григорія\, митроп
+ олита Іраклійського
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-19-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260719T073000Z
+DTEND:20260719T093000Z
+SUMMARY:7-ма Неділя по П'ятидесятниці
+DESCRIPTION:Божественна Літургія. Прп. Сисоя В
+ еликого · Собор Радонезьких святих · Обр
+ етіння мощей прав. діви Іуліанії\, княжни
+  Ольшанської
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-02-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260802T073000Z
+DTEND:20260802T093000Z
+SUMMARY:Святого славного пророка Іллі
+DESCRIPTION:Божественна Літургія. 9-та Неділя п
+ о П'ятидесятниці · Прп. Авраамія Галицьк
+ ого · Обретіння мощей прмч. Афанасія Бер
+ естейського
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-09-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260809T073000Z
+DTEND:20260809T093000Z
+SUMMARY:Святого великомученика і цілителя П
+ антелеймона
+DESCRIPTION:Божественна Літургія. 10-та Неділя 
+ по П'ятидесятниці · Блж. Миколи Кочанова\
+ , Христа ради юродивого\, Новгородського
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-16-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260816T073000Z
+DTEND:20260816T093000Z
+SUMMARY:11-та Неділя по П'ятидесятниці
+DESCRIPTION:Божественна Літургія. Прпп. Ісаакі
+ я\, Далмата і Фавста · Мч. Раждена Перса\, 
+ первомученика Грузинського
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-18-vespers@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260818T150000Z
+DTEND:20260818T170000Z
+SUMMARY:Передсвято Преображення Господньог
+ о. Вечірня
+DESCRIPTION:Вечірня. Мч. Євсигнія Антиохійсько
+ го
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-19-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260819T073000Z
+DTEND:20260819T093000Z
+SUMMARY:Преображення Господа Бога і Спаса на
+ шого Ісуса Христа
+DESCRIPTION:Божественна Літургія. Одне з двана
+ дцяти великих свят · Освячення виноград
+ у і плодів
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-28-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260828T073000Z
+DTEND:20260828T093000Z
+SUMMARY:Успіння Пресвятої Владичиці нашої Б
+ огородиці і Приснодіви Марії
+DESCRIPTION:Божественна Літургія. Одне з двана
+ дцяти великих свят · Завершення Успенсь
+ кого посту
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-05-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260905T073000Z
+DTEND:20260905T093000Z
+SUMMARY:Віддання свята Успіння Пресвятої Бо
+ городиці
+DESCRIPTION:Божественна Літургія. Мч. Луппа Со
+ лунського · Сщмч. Іринея\, єпископа Ліонс
+ ького
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-13-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260913T073000Z
+DTEND:20260913T093000Z
+SUMMARY:15-та Неділя по П'ятидесятниці
+DESCRIPTION:Божественна Літургія. Покладення 
+ чесного пояса Пресвятої Богородиці · Сщ
+ мч. Кипріана\, єпископа Карфагенського
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-20-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260920T073000Z
+DTEND:20260920T093000Z
+SUMMARY:16-та Неділя по П'ятидесятниці
+DESCRIPTION:Божественна Літургія. Передсвято 
+ Різдва Пресвятої Богородиці · Мч. Созонт
+ а Помпеольського
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-26-vespers@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260926T150000Z
+DTEND:20260926T170000Z
+SUMMARY:Вечірня напередодні Воздвиження Хре
+ ста Господнього
+DESCRIPTION:Вечірня. Пам'ять оновлення храму В
+ оскресіння Христового в Єрусалимі · Пер
+ едсвято Воздвиження
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-27-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260927T073000Z
+DTEND:20260927T093000Z
+SUMMARY:Воздвиження Чесного і Животворящого
+  Хреста Господнього
+DESCRIPTION:Божественна Літургія. 17-та Неділя 
+ по П'ятидесятниці · Одне з дванадцяти ве
+ ликих свят · День суворого посту
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-liturgy@parish-freiburg
+DTSTAMP:20260908T000000Z
+DTSTART:20260930T073000Z
+DTEND:20260930T093000Z
+SUMMARY:Святих мучениць Віри\, Надії\, Любові 
+ та матері їхньої Софії
+DESCRIPTION:Божественна Літургія. Попразденст
+ во Воздвиження Хреста Господнього
+LOCATION:Matthias-Claudius-Kapelle\, Kybfelsenstraße 17\, 79100 Freiburg i
+ m Breisgau
+GEO:47.96606;7.8572
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
