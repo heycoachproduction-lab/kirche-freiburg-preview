@@ -461,7 +461,8 @@ ul.plain li::before{content:"·";position:absolute;left:3px;top:-1px;color:var(-
 .dlg-shoot p{margin:0 0 10px;font-size:17px;color:var(--muted)}
 
 /* ── зняти своє таїнство: пропозиція, а не прайс */
-.shoot{border:1px solid var(--line);background:#fffdf8;padding:28px 30px 30px;margin:38px 0 0}
+.shoot{border:1px solid var(--line);background:#fffdf8;padding:28px 30px 30px;margin:34px 0 0;
+  scroll-margin-top:90px}
 .shoot h3{font-size:24px;font-weight:400;margin:0 0 14px}
 .shoot .cols{margin:0}
 .shoot .aside{border-left:1px solid var(--line);padding-left:26px}
@@ -1000,8 +1001,17 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
         <p class="yt-t">З перших служб громади</p>
         <p class="yt-m">1 хвилина · 16 липня 2023 · канал настоятеля</p>
       </li></ul><p class="yt-note">Відео відкриється тільки після натискання. До цього моменту сторінка нічого не питає в YouTube: обкладинки лежать у нас. Натиснувши, ви погоджуєтесь, що YouTube (Google Ireland Limited) отримає вашу IP-адресу й може записати дані у ваш браузер. <a class="tlink" href="datenschutz.html#youtube">Докладніше</a></p>
+  </div>
+</section>
+
+<section id="treby">
+  <div class="wrap">
+    <h2>Таїнства і треби</h2>
+    <p class="lead">Натисніть — відкриється, як усе відбувається, що взяти з собою
+       і як домовитись. Сторінка не перезавантажується.</p>
+    <ul class="sacs"><li><button type="button" class="sac" data-open="dlg-khreshchennia">Хрещення</button><p class="sac-l">Людина народжується для життя з Богом і стає членом Церкви.</p></li><li><button type="button" class="sac" data-open="dlg-vinchannia">Вінчання</button><p class="sac-l">Церква благословляє подружжя і молиться, щоб їхній союз був у Бозі.</p></li><li><button type="button" class="sac" data-open="dlg-spovid">Сповідь</button><p class="sac-l">Розмова з Богом при свідку-священнику, після якої гріхи прощаються.</p></li><li><button type="button" class="sac" data-open="dlg-prychastia">Причастя</button><p class="sac-l">Серце Літургії: віряни причащаються Тіла і Крові Христових.</p></li><li><button type="button" class="sac" data-open="dlg-soborovannia">Соборування</button><p class="sac-l">Молитва про зцілення душі й тіла з помазанням освяченим єлеєм.</p></li><li><button type="button" class="sac" data-open="dlg-panakhyda">Панахида і похорон</button><p class="sac-l">Молитва про спочилих: у храмі, на могилі або перед похороном.</p></li><li><button type="button" class="sac" data-open="dlg-moleben">Молебень і освячення</button><p class="sac-l">Молитва про живих: у потребі, на початок справи, при освяченні дому.</p></li></ul><p class="sac-note">Соборування вдома, освячення авто, хрещення дорослого, поминки — того, чого тут нема, теж не бракує. Напишіть настоятелю, і вам пояснять, як це робиться саме в нашій громаді.</p>
     
-    <div class="shoot">
+    <div class="shoot" id="zyomka">
       <h3>Зняти своє таїнство</h3>
       <div class="cols">
         <div>
@@ -1015,15 +1025,6 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section id="treby">
-  <div class="wrap">
-    <h2>Таїнства і треби</h2>
-    <p class="lead">Натисніть — відкриється, як усе відбувається, що взяти з собою
-       і як домовитись. Сторінка не перезавантажується.</p>
-    <ul class="sacs"><li><button type="button" class="sac" data-open="dlg-khreshchennia">Хрещення</button><p class="sac-l">Людина народжується для життя з Богом і стає членом Церкви.</p></li><li><button type="button" class="sac" data-open="dlg-vinchannia">Вінчання</button><p class="sac-l">Церква благословляє подружжя і молиться, щоб їхній союз був у Бозі.</p></li><li><button type="button" class="sac" data-open="dlg-spovid">Сповідь</button><p class="sac-l">Розмова з Богом при свідку-священнику, після якої гріхи прощаються.</p></li><li><button type="button" class="sac" data-open="dlg-prychastia">Причастя</button><p class="sac-l">Серце Літургії: віряни причащаються Тіла і Крові Христових.</p></li><li><button type="button" class="sac" data-open="dlg-soborovannia">Соборування</button><p class="sac-l">Молитва про зцілення душі й тіла з помазанням освяченим єлеєм.</p></li><li><button type="button" class="sac" data-open="dlg-panakhyda">Панахида і похорон</button><p class="sac-l">Молитва про спочилих: у храмі, на могилі або перед похороном.</p></li><li><button type="button" class="sac" data-open="dlg-moleben">Молебень і освячення</button><p class="sac-l">Молитва про живих: у потребі, на початок справи, при освяченні дому.</p></li></ul><p class="sac-note">Соборування вдома, освячення авто, хрещення дорослого, поминки — того, чого тут нема, теж не бракує. Напишіть настоятелю, і вам пояснять, як це робиться саме в нашій громаді. Фото й відео самого таїнства теж можна замовити — про це вище, у розділі «Життя громади».</p>
   </div>
 </section>
 
@@ -1183,7 +1184,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Як домовитись</h4><p>Зателефонуйте або напишіть священнику: скажіть імʼя дитини, вік і бажану дату.</p></div>
     </div>
     <p class="dlg-after">На найближчій Літургії дитину бажано причастити — приходьте до 9:30.</p>
-    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Хрещення буває раз, а хрещені й рідні під час таїнства зайняті — фотографувати нікому. Знімки або короткий фільм можна замовити заздалегідь: і саме таїнство, і спільне фото з рідними біля купелі після нього.</p><p style="margin:0"><a class="tlink" href="#zhyttia">Як це виглядає і як домовитись</a></p></div>
+    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Хрещення буває раз, а хрещені й рідні під час таїнства зайняті — фотографувати нікому. Знімки або короткий фільм можна замовити заздалегідь: і саме таїнство, і спільне фото з рідними біля купелі після нього.</p><p style="margin:0"><a class="tlink" href="#zyomka">Як домовитись про зйомку</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-vinchannia" aria-labelledby="t-vinchannia">
@@ -1201,7 +1202,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Як домовитись</h4><p>Домовтеся про зустріч зі священником заздалегідь — розмова перед вінчанням обовʼязкова.</p></div>
     </div>
     <p class="dlg-after">Наречені готуються сповіддю й причастям.</p>
-    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Вінчання — те, що переглядатимуть через двадцять років. Фотографії або короткий фільм: вінці, обхід аналоя, спільна чаша, вихід із храму.</p><p style="margin:0"><a class="tlink" href="#zhyttia">Як це виглядає і як домовитись</a></p></div>
+    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Вінчання — те, що переглядатимуть через двадцять років. Фотографії або короткий фільм: вінці, обхід аналоя, спільна чаша, вихід із храму.</p><p style="margin:0"><a class="tlink" href="#zyomka">Як домовитись про зйомку</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-spovid" aria-labelledby="t-spovid">
@@ -1237,7 +1238,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Як домовитись</h4><p>Окремо домовлятися не треба. Якщо це ваш перший раз — підійдіть до священника заздалегідь.</p></div>
     </div>
     <p class="dlg-after">Немовлят і малих дітей причащають без попереднього посту.</p>
-    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Перше причастя дитини теж знімають — стримано, з відстані, без спалаху в обличчя.</p><p style="margin:0"><a class="tlink" href="#zhyttia">Як це виглядає і як домовитись</a></p></div>
+    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Перше причастя дитини теж знімають — стримано, з відстані, без спалаху в обличчя.</p><p style="margin:0"><a class="tlink" href="#zyomka">Як домовитись про зйомку</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-soborovannia" aria-labelledby="t-soborovannia">
@@ -1255,7 +1256,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Як домовитись</h4><p>Зателефонуйте священнику. Якщо стан тяжкий — телефонуйте одразу, у будь-який час.</p></div>
     </div>
     <p class="dlg-after">Соборування не скасовує лікування — Церква благословляє звертатися до лікарів.</p>
-    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Якщо соборування звершується вдома для літньої людини, зйомку зазвичай не роблять. Але коли рідні хочуть лишити памʼять — скажіть, і все буде тихо й непомітно.</p><p style="margin:0"><a class="tlink" href="#zhyttia">Як це виглядає і як домовитись</a></p></div>
+    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Якщо соборування звершується вдома для літньої людини, зйомку зазвичай не роблять. Але коли рідні хочуть лишити памʼять — скажіть, і все буде тихо й непомітно.</p><p style="margin:0"><a class="tlink" href="#zyomka">Як домовитись про зйомку</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-panakhyda" aria-labelledby="t-panakhyda">
@@ -1273,7 +1274,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Як домовитись</h4><p>Зателефонуйте священнику одразу, щойно стане відома дата.</p></div>
     </div>
     <p class="dlg-after">За нехрещених і за самогубців чин відспівування не звершується; про молитву в таких випадках запитайте священника особисто.</p>
-    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Панахиду знімають рідко, але буває, що рідні не змогли приїхати. Тоді роблять стриманий запис — без спалаху, з одного місця, щоб нікому не заважати.</p><p style="margin:0"><a class="tlink" href="#zhyttia">Як це виглядає і як домовитись</a></p></div>
+    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Панахиду знімають рідко, але буває, що рідні не змогли приїхати. Тоді роблять стриманий запис — без спалаху, з одного місця, щоб нікому не заважати.</p><p style="margin:0"><a class="tlink" href="#zyomka">Як домовитись про зйомку</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-moleben" aria-labelledby="t-moleben">
@@ -1291,7 +1292,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Як домовитись</h4><p>Скажіть священнику після служби або напишіть заздалегідь.</p></div>
     </div>
     <p class="dlg-after">Записку можна скласти прямо на цьому сайті — розділ «Подати записку».</p>
-    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Молебень на ювілей подружжя, іменини чи початок навчального року теж можна зняти.</p><p style="margin:0"><a class="tlink" href="#zhyttia">Як це виглядає і як домовитись</a></p></div>
+    <div class="dlg-shoot"><h4>Фото і відео</h4><p>Молебень на ювілей подружжя, іменини чи початок навчального року теж можна зняти.</p><p style="margin:0"><a class="tlink" href="#zyomka">Як домовитись про зйомку</a></p></div>
   </div>
 </dialog>
 <dialog class="lb" id="lightbox" aria-label="Знімок">

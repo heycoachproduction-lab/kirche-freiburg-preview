@@ -461,7 +461,8 @@ ul.plain li::before{content:"·";position:absolute;left:3px;top:-1px;color:var(-
 .dlg-shoot p{margin:0 0 10px;font-size:17px;color:var(--muted)}
 
 /* ── зняти своє таїнство: пропозиція, а не прайс */
-.shoot{border:1px solid var(--line);background:#fffdf8;padding:28px 30px 30px;margin:38px 0 0}
+.shoot{border:1px solid var(--line);background:#fffdf8;padding:28px 30px 30px;margin:34px 0 0;
+  scroll-margin-top:90px}
 .shoot h3{font-size:24px;font-weight:400;margin:0 0 14px}
 .shoot .cols{margin:0}
 .shoot .aside{border-left:1px solid var(--line);padding-left:26px}
@@ -1000,8 +1001,17 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
         <p class="yt-t">Aus den ersten Gottesdiensten</p>
         <p class="yt-m">1 Minute · 16. Juli 2023 · Kanal des Priesters</p>
       </li></ul><p class="yt-note">Das Video startet erst nach einem Klick. Bis dahin fragt die Seite bei YouTube nichts ab — die Vorschaubilder liegen bei uns. Mit dem Klick willigen Sie ein, dass YouTube (Google Ireland Limited) Ihre IP-Adresse erhält und Daten in Ihrem Browser speichern kann. <a class="tlink" href="datenschutz.html#youtube">Mehr dazu</a></p>
+  </div>
+</section>
+
+<section id="sakramente">
+  <div class="wrap">
+    <h2>Sakramente und Amtshandlungen</h2>
+    <p class="lead">Klicken Sie an — es öffnet sich, wie alles abläuft, was Sie mitbringen
+       und wie Sie einen Termin vereinbaren. Die Seite lädt dabei nicht neu.</p>
+    <ul class="sacs"><li><button type="button" class="sac" data-open="dlg-khreshchennia">Taufe</button><p class="sac-l">Der Mensch wird für das Leben mit Gott geboren und Glied der Kirche.</p></li><li><button type="button" class="sac" data-open="dlg-vinchannia">Trauung</button><p class="sac-l">Die Kirche segnet die Eheleute und betet, dass ihr Bund in Gott bestehe.</p></li><li><button type="button" class="sac" data-open="dlg-spovid">Beichte</button><p class="sac-l">Ein Gespräch mit Gott im Beisein des Priesters, nach dem die Sünden vergeben werden.</p></li><li><button type="button" class="sac" data-open="dlg-prychastia">Kommunion</button><p class="sac-l">Das Herz der Liturgie: die Gläubigen empfangen Leib und Blut Christi.</p></li><li><button type="button" class="sac" data-open="dlg-soborovannia">Krankensalbung</button><p class="sac-l">Gebet um Heilung von Seele und Leib mit geweihtem Öl.</p></li><li><button type="button" class="sac" data-open="dlg-panakhyda">Gedenkgottesdienst und Begräbnis</button><p class="sac-l">Gebet für die Verstorbenen: in der Kirche, am Grab oder vor der Bestattung.</p></li><li><button type="button" class="sac" data-open="dlg-moleben">Bittgottesdienst und Segnung</button><p class="sac-l">Gebet für die Lebenden: in Not, zum Beginn eines Vorhabens, zur Haussegnung.</p></li></ul><p class="sac-note">Krankensalbung zu Hause, Fahrzeugsegnung, Erwachsenentaufe, Gedenkfeier — auch was hier nicht steht, ist möglich. Schreiben Sie dem Priester, und Sie bekommen eine konkrete Antwort.</p>
     
-    <div class="shoot">
+    <div class="shoot" id="aufnahmen">
       <h3>Ihr Fest aufnehmen lassen</h3>
       <div class="cols">
         <div>
@@ -1015,15 +1025,6 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section id="sakramente">
-  <div class="wrap">
-    <h2>Sakramente und Amtshandlungen</h2>
-    <p class="lead">Klicken Sie an — es öffnet sich, wie alles abläuft, was Sie mitbringen
-       und wie Sie einen Termin vereinbaren. Die Seite lädt dabei nicht neu.</p>
-    <ul class="sacs"><li><button type="button" class="sac" data-open="dlg-khreshchennia">Taufe</button><p class="sac-l">Der Mensch wird für das Leben mit Gott geboren und Glied der Kirche.</p></li><li><button type="button" class="sac" data-open="dlg-vinchannia">Trauung</button><p class="sac-l">Die Kirche segnet die Eheleute und betet, dass ihr Bund in Gott bestehe.</p></li><li><button type="button" class="sac" data-open="dlg-spovid">Beichte</button><p class="sac-l">Ein Gespräch mit Gott im Beisein des Priesters, nach dem die Sünden vergeben werden.</p></li><li><button type="button" class="sac" data-open="dlg-prychastia">Kommunion</button><p class="sac-l">Das Herz der Liturgie: die Gläubigen empfangen Leib und Blut Christi.</p></li><li><button type="button" class="sac" data-open="dlg-soborovannia">Krankensalbung</button><p class="sac-l">Gebet um Heilung von Seele und Leib mit geweihtem Öl.</p></li><li><button type="button" class="sac" data-open="dlg-panakhyda">Gedenkgottesdienst und Begräbnis</button><p class="sac-l">Gebet für die Verstorbenen: in der Kirche, am Grab oder vor der Bestattung.</p></li><li><button type="button" class="sac" data-open="dlg-moleben">Bittgottesdienst und Segnung</button><p class="sac-l">Gebet für die Lebenden: in Not, zum Beginn eines Vorhabens, zur Haussegnung.</p></li></ul><p class="sac-note">Krankensalbung zu Hause, Fahrzeugsegnung, Erwachsenentaufe, Gedenkfeier — auch was hier nicht steht, ist möglich. Schreiben Sie dem Priester, und Sie bekommen eine konkrete Antwort. Fotos und Video des Sakraments lassen sich ebenfalls absprechen — siehe oben unter „Gemeindeleben“.</p>
   </div>
 </section>
 
@@ -1183,7 +1184,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Terminvereinbarung</h4><p>Rufen Sie den Priester an oder schreiben Sie ihm: Name und Alter des Kindes, Wunschtermin.</p></div>
     </div>
     <p class="dlg-after">In der nächsten Liturgie sollte das Kind die Kommunion empfangen — kommen Sie bis 9:30 Uhr.</p>
-    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Die Taufe gibt es einmal, und die Paten und Angehörigen sind während der Feier gebunden — zum Fotografieren kommt niemand. Fotos oder ein kurzer Film lassen sich vorher absprechen: die Feier selbst und ein gemeinsames Bild am Taufbecken danach.</p><p style="margin:0"><a class="tlink" href="#gemeindeleben">Wie das aussieht und wie man es abspricht</a></p></div>
+    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Die Taufe gibt es einmal, und die Paten und Angehörigen sind während der Feier gebunden — zum Fotografieren kommt niemand. Fotos oder ein kurzer Film lassen sich vorher absprechen: die Feier selbst und ein gemeinsames Bild am Taufbecken danach.</p><p style="margin:0"><a class="tlink" href="#aufnahmen">Wie Sie eine Aufnahme absprechen</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-vinchannia" aria-labelledby="t-vinchannia">
@@ -1201,7 +1202,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Terminvereinbarung</h4><p>Vereinbaren Sie rechtzeitig ein Gespräch mit dem Priester.</p></div>
     </div>
     <p class="dlg-after">Das Paar bereitet sich durch Beichte und Kommunion vor.</p>
-    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Die Trauung schaut man sich in zwanzig Jahren wieder an. Fotos oder ein kurzer Film: die Kronen, der Umgang, der gemeinsame Kelch, der Auszug aus der Kirche.</p><p style="margin:0"><a class="tlink" href="#gemeindeleben">Wie das aussieht und wie man es abspricht</a></p></div>
+    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Die Trauung schaut man sich in zwanzig Jahren wieder an. Fotos oder ein kurzer Film: die Kronen, der Umgang, der gemeinsame Kelch, der Auszug aus der Kirche.</p><p style="margin:0"><a class="tlink" href="#aufnahmen">Wie Sie eine Aufnahme absprechen</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-spovid" aria-labelledby="t-spovid">
@@ -1237,7 +1238,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Terminvereinbarung</h4><p>Keine Anmeldung nötig. Beim ersten Mal bitte vorher den Priester ansprechen.</p></div>
     </div>
     <p class="dlg-after">Säuglinge und kleine Kinder kommunizieren ohne vorheriges Fasten.</p>
-    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Auch die erste Kommunion eines Kindes lässt sich festhalten — zurückhaltend, aus Abstand, ohne Blitz ins Gesicht.</p><p style="margin:0"><a class="tlink" href="#gemeindeleben">Wie das aussieht und wie man es abspricht</a></p></div>
+    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Auch die erste Kommunion eines Kindes lässt sich festhalten — zurückhaltend, aus Abstand, ohne Blitz ins Gesicht.</p><p style="margin:0"><a class="tlink" href="#aufnahmen">Wie Sie eine Aufnahme absprechen</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-soborovannia" aria-labelledby="t-soborovannia">
@@ -1255,7 +1256,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Terminvereinbarung</h4><p>Rufen Sie den Priester an. In schweren Fällen jederzeit.</p></div>
     </div>
     <p class="dlg-after">Die Salbung ersetzt keine ärztliche Behandlung.</p>
-    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Bei einer Krankensalbung zu Hause wird in der Regel nicht fotografiert. Wenn die Angehörigen eine Erinnerung möchten, sagen Sie es — es geschieht leise und unauffällig.</p><p style="margin:0"><a class="tlink" href="#gemeindeleben">Wie das aussieht und wie man es abspricht</a></p></div>
+    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Bei einer Krankensalbung zu Hause wird in der Regel nicht fotografiert. Wenn die Angehörigen eine Erinnerung möchten, sagen Sie es — es geschieht leise und unauffällig.</p><p style="margin:0"><a class="tlink" href="#aufnahmen">Wie Sie eine Aufnahme absprechen</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-panakhyda" aria-labelledby="t-panakhyda">
@@ -1273,7 +1274,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Terminvereinbarung</h4><p>Rufen Sie den Priester an, sobald der Termin feststeht.</p></div>
     </div>
     <p class="dlg-after">Für Ungetaufte wird der Ritus nicht gespendet; fragen Sie den Priester nach dem Gebet in solchen Fällen.</p>
-    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Eine Panachida wird selten aufgenommen; manchmal konnten Angehörige aber nicht kommen. Dann entsteht eine zurückhaltende Aufnahme — ohne Blitz, von einem Platz aus.</p><p style="margin:0"><a class="tlink" href="#gemeindeleben">Wie das aussieht und wie man es abspricht</a></p></div>
+    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Eine Panachida wird selten aufgenommen; manchmal konnten Angehörige aber nicht kommen. Dann entsteht eine zurückhaltende Aufnahme — ohne Blitz, von einem Platz aus.</p><p style="margin:0"><a class="tlink" href="#aufnahmen">Wie Sie eine Aufnahme absprechen</a></p></div>
   </div>
 </dialog>
 <dialog class="dlg" id="dlg-moleben" aria-labelledby="t-moleben">
@@ -1291,7 +1292,7 @@ details.srcbox summary{cursor:pointer;font-size:14.5px;color:#a3957c}
            <h4>Terminvereinbarung</h4><p>Sprechen Sie den Priester nach dem Gottesdienst an oder schreiben Sie vorher.</p></div>
     </div>
     <p class="dlg-after">Den Zettel können Sie direkt auf dieser Seite zusammenstellen.</p>
-    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Ein Bittgottesdienst zum Hochzeitsjubiläum, Namenstag oder Schuljahresbeginn lässt sich ebenfalls aufnehmen.</p><p style="margin:0"><a class="tlink" href="#gemeindeleben">Wie das aussieht und wie man es abspricht</a></p></div>
+    <div class="dlg-shoot"><h4>Fotos und Video</h4><p>Ein Bittgottesdienst zum Hochzeitsjubiläum, Namenstag oder Schuljahresbeginn lässt sich ebenfalls aufnehmen.</p><p style="margin:0"><a class="tlink" href="#aufnahmen">Wie Sie eine Aufnahme absprechen</a></p></div>
   </div>
 </dialog>
 <dialog class="lb" id="lightbox" aria-label="Bild">
